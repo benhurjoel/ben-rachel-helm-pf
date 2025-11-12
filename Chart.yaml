@@ -1,0 +1,17 @@
+apiVersion: v2
+name: promptfoo
+description: A Helm chart for Promptfoo on Azure Kubernetes Service
+type: application
+version: 0.1.0
+appVersion: "latest"
+keywords:
+  - promptfoo
+  - llm
+  - testing
+  - evaluation
+home: https://github.com/promptfoo/promptfoo
+sources:
+  - https://github.com/promptfoo/promptfoo
+maintainers:
+  - name: Your Name
+    email: your.email@example.com
