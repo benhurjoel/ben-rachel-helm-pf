@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: {{ include "promptfoo.fullname" . }}
+  namespace: {{ .Release.Namespace }}
   labels:
     {{- include "promptfoo.labels" . | nindent 4 }}
   {{- with .Values.service.annotations }}
